@@ -3,3 +3,6 @@ This is a pair of ROMs for the Nintento Entertainment System designed to print t
 These ROMs never write to CPU RAM, even avoiding writes to the stack.  
 
 It not not recommended you run this with an everdrive N8 pro, as that cartridge initializes RAM at power on before jumping to the code for the ROM you want to run.
+
+Example screenshot:
+<img width="1328" height="930" alt="PageZeroRAM" src="https://github.com/user-attachments/assets/21297a7f-d529-44f6-be67-f7a1e32127a6" />
