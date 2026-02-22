@@ -1,0 +1,5 @@
+# Uninitialized RAM Viewer  
+This is a pair of ROMs for the Nintento Entertainment System designed to print the uninitialzied values of RAM and VRAM. You can press Left and Right on the controller to determine what page of RAM is being displayed.  
+These ROMs never write to CPU RAM, even avoiding writes to the stack.  
+
+It not not recommended you run this with an everdrive N8 pro, as that cartridge initializes RAM at power on before jumping to the code for the ROM you want to run.
